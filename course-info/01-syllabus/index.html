@@ -677,13 +677,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#grading" class="md-nav__link">
-    Grading
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#grading-rubric" class="md-nav__link">
     Grading Rubric
   </a>
@@ -719,8 +712,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#late-submissions" class="md-nav__link">
-    Late Submissions
+  <a href="#quizzes" class="md-nav__link">
+    Quizzes
   </a>
   
 </li>
@@ -749,6 +742,13 @@
           <li class="md-nav__item">
   <a href="#in-class-coding-labs-and-tutorial-sessions" class="md-nav__link">
     In-Class Coding Labs and Tutorial Sessions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#late-submissions" class="md-nav__link">
+    Late Submissions
   </a>
   
 </li>
@@ -1343,13 +1343,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#grading" class="md-nav__link">
-    Grading
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#grading-rubric" class="md-nav__link">
     Grading Rubric
   </a>
@@ -1385,8 +1378,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#late-submissions" class="md-nav__link">
-    Late Submissions
+  <a href="#quizzes" class="md-nav__link">
+    Quizzes
   </a>
   
 </li>
@@ -1415,6 +1408,13 @@
           <li class="md-nav__item">
   <a href="#in-class-coding-labs-and-tutorial-sessions" class="md-nav__link">
     In-Class Coding Labs and Tutorial Sessions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#late-submissions" class="md-nav__link">
+    Late Submissions
   </a>
   
 </li>
@@ -1858,15 +1858,103 @@ Syllabus -- Fall 2024  </p>
 <li>Present work orally to the class</li>
 </ul>
 <h2 id="course-organization">Course Organization</h2>
-<h3 id="grading">Grading</h3>
-<!-- 
-| Item                               |        % |
-| ---------------------------------- | -------: |
-| Individual Assignments and Quizzes |      60% |
-| Team Project                       |      40% |
-| **Total**                          | **100%** |
--->
-
+<table>
+<thead>
+<tr>
+<th>Assignment</th>
+<th>Topics</th>
+<th style="text-align: center;">Type</th>
+<th>Due</th>
+<th style="text-align: right;">%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HW1</td>
+<td>Folding &amp; DOFs</td>
+<td style="text-align: center;">Individual</td>
+<td>Week 2</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>HW2</td>
+<td>Kinematics</td>
+<td style="text-align: center;">Individual</td>
+<td>Week 4</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>HW3</td>
+<td>Dynamics</td>
+<td style="text-align: center;">Individual</td>
+<td>Week 6</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>HW4</td>
+<td>Parameter Identification</td>
+<td style="text-align: center;">Individual</td>
+<td>Week 9</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>HW5</td>
+<td>Optimization</td>
+<td style="text-align: center;">Individual</td>
+<td>Week 11</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>HW6</td>
+<td>Manufacturing Computation</td>
+<td style="text-align: center;">Individual</td>
+<td>Week 13</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>Project 1</td>
+<td>Device Proposal, Kinematics, Dynamics</td>
+<td style="text-align: center;">Team</td>
+<td>Week 7</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr>
+<td>Project 2</td>
+<td>Device Optimization, Manufacturing, Verification</td>
+<td style="text-align: center;">Team</td>
+<td>Week 15</td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr>
+<td>Midterm</td>
+<td></td>
+<td style="text-align: center;">Individual</td>
+<td>Week 8</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>Attendance</td>
+<td></td>
+<td style="text-align: center;">-</td>
+<td>-</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr>
+<td>Quizzes</td>
+<td></td>
+<td style="text-align: center;"></td>
+<td>?</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: right;">100</td>
+</tr>
+</tbody>
+</table>
 <h3 id="grading-rubric">Grading Rubric</h3>
 <p>Assignments and Projects will be graded according to the following rubric.  The following is a general description of what each point value means in this course:</p>
 <table>
@@ -1972,149 +2060,10 @@ Syllabus -- Fall 2024  </p>
 </ul>
 <h3 id="individual-assignments">Individual Assignments</h3>
 <p>There will be 6 individual assignments throughout the course. These assignments will be focused on (1) initial prototyping, (2) kinematics, (3) dynamics, (4) parameter identification, (5) design optimization, (6) prototyping and testing. The individual assignments are intended to introduce concepts discussed in class whereas the team projects are intended to reinforce the students on the concepts.</p>
-<!-- 
-6 Assignments:
-
-1. Initial prototyping
-1. Kinematics
-1. Dynamics
-1. Parameter identification
-1. Design optimization
-1. Final prototyping and testing 
-1. -->
-
-<table>
-<thead>
-<tr>
-<th>Assignment</th>
-<th>Topics</th>
-<th>Format</th>
-<th>Due</th>
-<th style="text-align: right;">Individual</th>
-<th style="text-align: right;">Team Points</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>HW1</td>
-<td>Folding &amp; DOFs</td>
-<td>Individual</td>
-<td>Week 2</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>HW2</td>
-<td>Kinematics</td>
-<td>Individual</td>
-<td>Week 4</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>HW3</td>
-<td>Dynamics</td>
-<td>Individual</td>
-<td>Week 6</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>Project 1</td>
-<td>Device Proposal, Kinematics, Dynamics</td>
-<td>Team</td>
-<td>Week 7</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">200</td>
-</tr>
-<tr>
-<td>Midterm</td>
-<td></td>
-<td>Midterm</td>
-<td>Week 8</td>
-<td style="text-align: right;">200</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>HW4</td>
-<td>Parameter Identification</td>
-<td>Individual</td>
-<td>Week 9</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>HW5</td>
-<td>Optimization</td>
-<td>Individual</td>
-<td>Week 11</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>HW6</td>
-<td>Manufacturing Computation</td>
-<td>Individual</td>
-<td>Week 13</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>Quiz 1</td>
-<td>various</td>
-<td>Quiz</td>
-<td>tbd</td>
-<td style="text-align: right;">100<span class="arithmatex">\(^*\)</span></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>Quiz 2</td>
-<td>various</td>
-<td>Quiz</td>
-<td>tbd</td>
-<td style="text-align: right;">100<span class="arithmatex">\(^*\)</span></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td>Project 2</td>
-<td>Device Optimization, Final Design, Verification</td>
-<td>Individual</td>
-<td>Week 15</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">400</td>
-</tr>
-<tr>
-<td><strong>Total</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td style="text-align: right;"><strong>800-1000</strong><span class="arithmatex">\(^*\)</span></td>
-<td style="text-align: right;"><strong>600</strong></td>
-</tr>
-<tr>
-<td>Percentage</td>
-<td></td>
-<td></td>
-<td></td>
-<td style="text-align: right;"><strong>57%-63%</strong><span class="arithmatex">\(^*\)</span></td>
-<td style="text-align: right;"><strong>43%-.375%<span class="arithmatex">\(^*\)</span></strong></td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p><span class="arithmatex">\(^*\)</span> I reserve the right to add up to 2 quizzes, especially if attendance and work quality are suffering.  Quizzes are each worth the equivalent to one individual assignment and may be held without notice.</p>
-</blockquote>
 <h3 id="team-project">Team Project</h3>
 <p>There will be two project assignments. These assignments involve the design of a  robotic mechanism, starting with an idealized kinematic analysis of the design and its dynamic modeling. Later assignments will include the effects of flexibility in the robot dynamics, the planning, fabrication, and testing of flexible robot components, and its final validation.  The students will make a demo video of their second project at the end of the semester. Students will work in groups of 3-4.</p>
-<h3 id="late-submissions">Late Submissions</h3>
-<blockquote>
-<p>Each concept in this class builds on the last, so failing to turn in an assignment on time affects you and your teammates.</p>
-</blockquote>
-<ul>
-<li>It is your responsibility to get in touch with the instructor regarding any questions before assignments are due.  </li>
-<li>Late submissions will lose one letter grade(10%) for every day they are late.  </li>
-<li><strong>Any submission more than four days late will receive a zero.</strong>  </li>
-</ul>
+<h3 id="quizzes">Quizzes</h3>
+<p>I will hold up to 2 quizzes <em>without notice</em> at the beginning of class.</p>
 <h3 id="midterm">Midterm</h3>
 <p>There is one midterm exam.</p>
 <ul>
@@ -2124,16 +2073,21 @@ Syllabus -- Fall 2024  </p>
 <h3 id="final-exam">Final Exam</h3>
 <p>There is no final exam.</p>
 <h3 id="make-up-exam-policy">Make-up Exam Policy</h3>
-<p>There will be no make-up exam unless a documentable extreme medical or family emergency exists.  You must contact the instructor <em>prior</em>* to the exam, or no credit will be given for a missed exam.</p>
-<p>* 1 day notice minimum</p>
-<!-- 
--->
-
+<p>There will be no make-up exam outside of absences allowed by the attendance policy below.  You <strong>must</strong> contact the instructor at least <em>1 day prior</em> to the exam, or no credit will be given for a missed exam.</p>
 <h3 id="in-class-coding-labs-and-tutorial-sessions">In-Class Coding Labs and Tutorial Sessions</h3>
 <p>Some portion of class time will be set aside for students to apply the methods introduced in class. In these tutorials, the students will model and simulate robots in Python environment, apply optimization techniques, and perform system identification, amongst other topics.</p>
 <blockquote>
 <p>Students are expected to come to the lab and tutorial sessions with a laptop capable of running Python.</p>
 </blockquote>
+<h3 id="late-submissions">Late Submissions</h3>
+<blockquote>
+<p>Each concept in this class builds on the last, so failing to turn in an assignment on time affects you and your teammates.</p>
+</blockquote>
+<ul>
+<li>It is your responsibility to get in touch with the instructor regarding any questions before assignments are due.  </li>
+<li>Late submissions will lose one letter grade(10%) for every day they are late.  </li>
+<li><strong>Any submission more than four days late will receive a zero.</strong>  </li>
+</ul>
 <h2 id="course-policies">Course Policies</h2>
 <p>Students in this class are expected to acknowledge and embrace the FSE student professionalism expectation located at: <a href="https://engineering.asu.edu/professionalism/">https://engineering.asu.edu/professionalism/</a></p>
 <h3 id="how-to-succeed-in-this-course">How to Succeed in this Course</h3>
@@ -2151,8 +2105,8 @@ Syllabus -- Fall 2024  </p>
 <blockquote>
 <p>It must be noted that attendance is extremely important; irregular attendance typically results in poor or mediocre performance.</p>
 </blockquote>
-<p>Attendance will be taken at the start of each class.
-Excused absences for classes will be given without penalty to the grade in the case of (1) a university-sanctioned event [ACD 304-02]; (2) religious holidays [ACD 304-04]; a list of religious holidays can be found here <a href="https://eoss.asu.edu/cora/holidays">https://eoss.asu.edu/cora/holidays</a> ]; (3) work performed in the line-of-duty according [SSM 201-18]. Students who request an excused absences must follow the policy/procedure guidelines. Excused absences do not relieve students of responsibility for any part of the course work required during the period of absence.</p>
+<p>Attendance will be taken at the start of each class, and may be administered via online link, class photo, or form.  If you have any concerns, please see the instructor.</p>
+<p>Excused absences for classes will be given without penalty to the grade in the case of (1) a university-sanctioned event [ACD 304-02]; (2) religious holidays [ACD 304-04]; a list of religious holidays can be found here <a href="https://eoss.asu.edu/cora/holidays">https://eoss.asu.edu/cora/holidays</a> ]; (3) work performed in the line-of-duty according [SSM 201-18]. Students who request an excused absences must follow the policy/procedure guidelines. Excused absences do not relieve students of responsibility for any part of the course work required during the period of absence.</p>
 <h3 id="discussion-board">Discussion Board</h3>
 <p>We will use the Canvas discussion board  as a forum for answering all general questions about the course, assignments, etc.  It permits the instructor to answer each question once, maintain consistency across students, and curate good or pertinent questions.  The discussion board is also used to improve the course, and is thus a record of all the ways it can be improved.  For this reason, keep the following in mind:</p>
 <ul>
@@ -2265,7 +2219,7 @@ If you are not able to personally finance the equipment needed to participate in
 <h3 id="software">Software</h3>
 <ul>
 <li>You will be expected to install and use either use Python installed on your computer, or something like Google colab for completing all assignments and following along in class.</li>
-<li>This class is friendly to all operating systems.  Students have used Window, Ubuntu or OS/X on their own in the past with no problems.</li>
+<li>This class is friendly to all operating systems.  Students have used Windows, Ubuntu or OS/X on their own in the past with no problems.</li>
 <li>Please see the software list posted on the course site for more information about required and recommended software.  The software listed is either open-source and freely available to download, available through the University, or free for student use.</li>
 </ul>
 <h3 id="materials">Materials</h3>
